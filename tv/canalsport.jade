@@ -1,0 +1,25 @@
+---
+title: 'Canal Sport'
+date: 8/9/2014
+_content: false
+thumbnail: 'canalsport.png'
+order: 4
+---
+
+extends ../views/_video-layout
+
+block content
+  #videoContainer
+    video(controls='muted', width='100%', poster='http://theblackcurrant.net/images/tn/canalsport.jpg')
+        source(src='http://theblackcurrant.net/media/CANAL-WIMBLEPONG-HD.webm', type='video/webm')
+        source(src='http://theblackcurrant.net/media/CANAL-WIMBLEPONG-HD.mp4', type='video/mp4')
+    
+  .story
+    .lead
+      p Project Lead: Ben
+    :markdown
+      # Canalsport lorem
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+      

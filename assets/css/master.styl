@@ -1,0 +1,40 @@
+@import '_settings'
+
+normalize-css()
+base()
+
+*, *:before, *:after
+  box-sizing: inherit
+
+html
+  box-sizing: border-box;
+  font-family: 'europa'
+  color: bc1
+
+body
+  margin: 0 auto
+  -webkit-animation: fadeIn .5s ease
+
+h1, h2
+  font-family: "droid-serif",serif;
+
+p
+  font-size: 1.3em
+  line-height: 1.5
+
+a, a:visited
+  color: bc1
+  transition: all .1s linear
+  &:hover
+    color:bc1
+img
+  max-width: 100%
+
+
+@import '_nav'
+@import '_home'
+@import '_video'
+@import '_tv-digital'
+@import '_profiles'
+@import '_mastering'
+@import '_footer'

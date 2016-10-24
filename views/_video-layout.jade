@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='The Black Currant', content='Home of The Black Currant')
+    meta(name='The Black Currant', content= "author of the site")
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title Music for Motion
+    link(rel='stylesheet', href='/css/master.css')
+    <script type="text/javascript" src="//use.typekit.net/nhi3mtn.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  body
+    #header
+      nav
+        .logo
+          a(href='/')
+            img(src='../img/about/logo.svg')
+        ul
+          li: a(href='tv.html') TV
+          li: a(href='digital.html') Digital / Web
+          li: a(href='mastering.html') Mastering
+          li: a(href='profiles.html') Profiles
+    #post
+      block content
+      //- #home.videos
+      //-   #posts
+      //-     ul
+      //-       //- li
+      //-         .post-thumbnail
+      //-           a(href='/posts/intel.html')
+      //-             span.space
+      //-               | Intel and Wearables 
+      //-             img(src='../img/case_studies/intel-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/shareatree2014.html')
+      //-             span.space
+      //-               | NBC Shares Trees
+      //-             img(src='../img/case_studies/nbc-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/atlantic_records.html')
+      //-             span.space
+      //-               | Atlantic Records Goes Digital
+      //-             img(src='../img/case_studies/atlrec-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/target_diapers.html')
+      //-             span.space
+      //-               | Target + Good Co. Facebook App
+      //-             img(src='../img/case_studies/target-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/wakaflocka.html')
+      //-             span.space
+      //-               | Waka Flocka Rebrands 
+      //-             img(src='../img/case_studies/wakaflocka-thumb.jpg')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/intermedia.html')
+      //-             span.space
+      //-               | Intermedia Takes Me on a Journey
+      //-             img(src='../img/case_studies/intermedia-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/honesttea.html')
+      //-             span.space
+      //-               | Honest Tea - The National Honesty Index
+      //-             img(src='../img/case_studies/honesttea-thumb.png')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/gostrengths.html')
+      //-             span.space
+      //-               | GoStrengths! Powers Through W/Positivity
+      //-             img(src='../img/case_studies/gostrengths-thumb.jpg')
+      //-       li
+      //-         .post-thumbnail
+      //-           a(href='/posts/communicating_design.html')
+      //-             span.space
+      //-               | How I Communicate Design
+      //-             img(src='../img/case_studies/communicating-thumb.png')
+                  
+      footer
+        include ../partials/_footer
+
+  script(data-main="js/main", src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js")
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-12348934-1', 'auto'); ga('send', 'pageview');

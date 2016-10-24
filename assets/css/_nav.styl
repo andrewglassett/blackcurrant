@@ -1,0 +1,33 @@
+#header
+  col()
+  background-color: bc1
+  nav
+    a, a:visited
+      padding: 34px 2.5em
+      display: block
+      float: left
+      text-decoration: none
+      color: bc2
+      &:hover
+        color: white
+        background: #251627
+      +below(800px)
+        float: none
+        text-align: center
+        padding: 1em
+      img
+        width:190px
+    .logo a
+      padding: 21px
+      +below(800px)
+        padding: 1em 0
+    ul
+      inline-list()
+      float: right
+      +below(800px)
+        text-align: center
+        float: none
+      li
+        margin: 0
+        +below(800px)
+          width: 100%
